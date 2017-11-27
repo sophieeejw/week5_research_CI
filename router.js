@@ -1,9 +1,9 @@
 
 
 const router = (request, response) => {
-	
+
 	console.log(request.url);
-/*
+
 	if(request.url==='/'){
 		response.writeHead(200,{'Content-Type':'text/html'});
 		response.write('hello');
@@ -18,7 +18,7 @@ const router = (request, response) => {
 	else{
 		response.writeHead(404,{'Content-Type':'text/html'});
 		response.end('url not found');
-	}*/
+	}
 }
 
 
